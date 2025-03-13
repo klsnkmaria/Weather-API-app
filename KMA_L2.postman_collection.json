@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "3c4bb90a-52c1-42ad-951d-ad190190dca9",
+		"_postman_id": "#############",
 		"name": "KMA_L2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "42596785"
+		"_exporter_id": "#########"
 	},
 	"item": [
 		{
@@ -21,14 +21,8 @@
 					}
 				},
 				"url": {
-					"raw": "http://13.60.91.190:8000/content/api/v1/integration/generate",
+					"raw": "http://#########/content/api/v1/integration/generate",
 					"protocol": "http",
-					"host": [
-						"13",
-						"60",
-						"91",
-						"190"
-					],
 					"port": "8000",
 					"path": [
 						"content",
@@ -55,7 +49,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"token\": \"my_token\",\r\n  \"requester_name\": \"John Doe\",\r\n  \"location\": \"Kyiv\",\r\n  \"date\": \"2025-03-13\"\r\n}\r\n",
+					"raw": "{\r\n  \"token\": \"########\",\r\n  \"requester_name\": \"John Doe\",\r\n  \"location\": \"Kyiv\",\r\n  \"date\": \"2025-03-13\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -63,14 +57,8 @@
 					}
 				},
 				"url": {
-					"raw": "http://13.60.91.190:5000/weather",
+					"raw": "http://##########/weather",
 					"protocol": "http",
-					"host": [
-						"13",
-						"60",
-						"91",
-						"190"
-					],
 					"port": "5000",
 					"path": [
 						"weather"
@@ -93,7 +81,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"token\": \"my_token\",\r\n  \"requester_name\": \"Jammes Nilan\",\r\n  \"location\": \"Odessa\",\r\n  \"date\": \"2025-03-20\"\r\n}\r\n",
+							"raw": "{\r\n  \"token\": \"#########\",\r\n  \"requester_name\": \"Jammes Nilan\",\r\n  \"location\": \"Odessa\",\r\n  \"date\": \"2025-03-20\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -101,14 +89,8 @@
 							}
 						},
 						"url": {
-							"raw": "http://13.60.91.190:8000/weather",
+							"raw": "http://##########/weather",
 							"protocol": "http",
-							"host": [
-								"13",
-								"60",
-								"91",
-								"190"
-							],
 							"port": "8000",
 							"path": [
 								"weather"
